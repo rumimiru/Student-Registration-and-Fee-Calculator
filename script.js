@@ -35,14 +35,14 @@ const summaryDiscount = document.getElementById("summaryDiscount");
 const summaryFinalFee = document.getElementById("summaryFinalFee");
 
 
-// PART B
+// PART A
 result.style.display = "none";
 registrationFee.textContent = "₱0";
 discount.textContent = "₱0";
 finalFee.textContent = "₱0";
 
 
-// VALIDATION FUNCTION
+// PART B
 function validateStudentInfo(name, studentNumber, email) {
     const validName =
         name.trim().length >= 3 &&
